@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Vincent Boucheny"]
   spec.email         = ["vincent.boucheny@powershop.co.nz"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Caca}
+  spec.description   = %q{Pipi}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -30,4 +30,12 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "nokogiri"
+  spec.add_development_dependency "rack-test"
+  spec.add_development_dependency "rest-client"
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
+  spec.add_development_dependency "json"
+  spec.add_development_dependency "byebug"
+  spec.add_development_dependency "faye-websocket"
 end
